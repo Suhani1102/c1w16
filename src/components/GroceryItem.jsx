@@ -8,8 +8,8 @@ const GroceryItem = (props) => {
       <img src={imgURL} alt={title} />
       <h4>{title}</h4>
       <div className={styles.priceTag}>
-        <span className={styles.sellPrice}>{sellingPrice}</span>
-        <span className={styles.actualPrice}>{mrp}</span>
+        <span className={styles.sellPrice}>{sellingPrice} </span>
+        M.R.P.<span className={styles.actualPrice}>{mrp}</span>
       </div>
     </div>
   );
