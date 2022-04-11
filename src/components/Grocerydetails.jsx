@@ -1,7 +1,6 @@
 import React from "react";
 import data from "../data.json";
 import GroceryItem from "./GroceryItem";
-//import CartButton from "./CartButton";
 import styles from "./GroceryItem.module.css";
 
 const GroceryDetails = () => {

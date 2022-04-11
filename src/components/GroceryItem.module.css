@@ -11,6 +11,11 @@
   width: 385px;
 }
 
+.card > h4 {
+  text-align: left;
+  margin-left: 5px;
+}
+
 .priceTag {
   display: flex;
   justify-content: flex-start;
