@@ -2,7 +2,7 @@
 import styles from "./GroceryItem.module.css";
 
 const GroceryItem = (props) => {
-  const { title, imgURL, mrp, sellingPrice, discount } = props;
+  const { title, imgURL, mrp, sellingPrice } = props;
   return (
     <div className={styles.card}>
       <img src={imgURL} alt={title} />
