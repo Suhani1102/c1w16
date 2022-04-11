@@ -1,0 +1,33 @@
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.card {
+  border: 1px solid gray;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 7px;
+  width: 385px;
+}
+
+.priceTag {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sellPrice {
+  font-weight: bold;
+}
+
+.actualPrice {
+  text-decoration: line-through;
+}
+
+.appTitle {
+  color: crimson;
+  border: 2px solid gray;
+  border-radius: 4px;
+  margin: 5px 5px 10px;
+  padding: 5px;
+}
