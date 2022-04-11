@@ -1,6 +1,6 @@
 .container {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto auto;
 }
 
 .card {
@@ -8,7 +8,7 @@
   padding: 10px;
   margin: 5px;
   border-radius: 7px;
-  width: 385px;
+  width: 220px;
 }
 
 .card > h4 {
